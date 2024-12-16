@@ -14,7 +14,7 @@ const Service = () => {
       <div className='container w-full grid relative grid-cols-2'>
       
       </div>
-      <div className="bg-cover bg-center py-20 bg-no-repeat" style={{ backgroundImage: `url(${images.bgImg})` }}>
+      <div className="bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url(${images.bgImg})` }}>
         <div className="container mx-auto py-16">
           <div className="flex flex-col text-center gap-2 mb-10">
             <p className="font-medium text-white text-xs md:text-base">WHY CHOOSE US</p>

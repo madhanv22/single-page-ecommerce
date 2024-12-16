@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { MdMenu, MdClose } from "react-icons/md";
+import React from 'react';
+import { MdClose } from "react-icons/md";
 
 const Sidebar = ({ isMenuOpen, toggleMenu }) => {
   return (

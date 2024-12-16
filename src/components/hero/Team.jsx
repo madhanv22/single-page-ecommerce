@@ -8,7 +8,7 @@ const Team = () => {
   };
 
   return (
-    <div className="mx-20 my-10 overflow-hidden">
+    <div className="mx-10 my-10 overflow-hidden">
       <div className="flex flex-col text-center gap-2">
         <p className="font-medium text-gray-500 text-xs md:text-base">MEET OUR</p>
         <h2 className="font-bold text-2xl md:text-4xl">Our Team</h2>
