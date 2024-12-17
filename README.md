@@ -13,7 +13,7 @@ This repository contains the source code for a static page built using React.js 
 
 1. **Clone the repository:**
    ```bash
-   git clone  https://github.com/madhanv22/frontendtask-madhan/edit/main/README.md
+   git clone  https://github.com/madhanv22/frontendtask-madhan/
 
   cd frontendtask-madhan
 
