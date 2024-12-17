@@ -6,6 +6,8 @@ const images = {
   img2: 'src/assets/images/service/img2.png',
   img3: 'src/assets/images/service/img3.png',
   img4: 'src/assets/images/service/img4.jpg',
+  img5: 'src/assets/images/service/img5.png',
+  img6: 'src/assets/images/service/img6.png',
   newimg: 'src/assets/images/service/newimg.jpg'
 };
 
@@ -27,25 +29,7 @@ const Service = () => {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             <div className="flex flex-col">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="currentColor"
-                className="w-12 h-12 text-blue-500 mb-4"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
-                />
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
-                />
-              </svg>
+              <img src={images.img5} alt="" className='w-12' />
               <h2 className="text-base lg:text-xl font-semibold mb-2">Professional Cleaning</h2>
               <p className='text-gray-500'>
                 Housekeeping is responsible for minor security in hotels.
@@ -53,20 +37,7 @@ const Service = () => {
             </div>
 
             <div className="flex flex-col">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="currentColor"
-                className="w-12 h-12 text-blue-500 mb-4"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012 2h2a2 2 0 012-2m-6 9l2 2 4-4"
-                />
-              </svg>
+              <img src={images.img6} alt="" className='w-12' />
               <h2 className="text-base lg:text-xl font-semibold mb-2">Fast and efficient</h2>
               <p className='text-gray-500'>Both of us take a lot of time in getting cleaned Clean Home.</p>
             </div>
