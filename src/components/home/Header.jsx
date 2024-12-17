@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaCalculator } from 'react-icons/fa6';
-// import { MdEmail, MdCall } from "react-icons/md";
+import { MdEmail, MdCall } from "react-icons/md";
 
 const images = {
   bgImg: 'src/assets/images/bgimg.jpg',
@@ -14,9 +14,15 @@ const Header = () => {
     <header className="relative overflow-hidden">
       <div className="header-bg relative w-full h-full">
         <div className="hidden md:flex pt-4 px-4 md:pt-6 md:px-20 absolute w-full justify-between items-center text-white">
-          <div className="flex flex-col md:flex-row space-x-2 md:space-x-4 text-sm md:text-lg">
-            <p>+123-456-7890</p>
-            <p>info@yourdomain.com</p>
+          <div className="flex flex-col md:flex-col text-sm md:text-lg">
+            <div className='flex items-center gap-2'>
+              <MdCall className='text-xs md:text-lg' /> 
+              <p>+123-456-7890</p>
+            </div>
+            <div className='flex items-center gap-2'>
+              <MdEmail className='text-xs md:text-lg' />
+              <p>info@yourdomain.com</p>
+            </div>
           </div>
           <div className="flex flex-col md:flex-row items-center gap-2">
             <ul className='flex space-x-2 md:space-x-4'>

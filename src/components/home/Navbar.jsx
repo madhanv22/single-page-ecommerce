@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { MdMenu } from "react-icons/md";
-import Sidebar from '../sidebar/Sidebar';
+import Sidebar from './Sidebar';
 
 const images = {
   logo: 'src/assets/images/logo.png',
@@ -14,9 +14,9 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="h-28 mb-4 md:mb-6 absolute top-2 md:top-20 left-0 right-0 grid grid-cols-2 lg:grid-cols-2 items-center bg-white/50 rounded-md px-4 py-2 md:px-6 md:py-4 mx-2 md:mx-20">
-      <div className="lg:block w-24 md:w-32 lg:w-40">
-        <img src={images.logo} alt="Logo" className="w-full" />
+    <nav className="h-30 mb-4 mt-2 md:mb-6 absolute top-2 md:top-20 left-0 right-0 grid grid-cols-2 lg:grid-cols-2 items-center bg-white/50 rounded-md px-4 py-2 md:px-6 md:py-4 mx-2 md:mx-20">
+      <div className="lg:flex w-16 md:w-20 lg:w-24">
+        <img src={images.logo} alt="Logo" className="w-full rounded-full object-contain" />
       </div>
       <div className="lg:hidden flex justify-end">
         <button onClick={toggleMenu}>

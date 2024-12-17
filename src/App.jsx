@@ -1,13 +1,13 @@
 import React from 'react'
-import Header from './components/hero/Header'
-import Navbar from './components/navbar/Navbar'
-import About from './components/hero/About'
-import Team from './components/hero/Team'
-import News from './components/hero/News'
-import Footer from './components/footer/Footer'
-import Service from './components/hero/Service'
-import Blog from './components/hero/Blog'
-import Sidebar from './components/sidebar/Sidebar'
+import Header from './components/home/Header'
+import Navbar from './components/home/Navbar'
+import About from './components/home/About'
+import Team from './components/home/Team'
+import News from './components/home/News'
+import Footer from './components/home/Footer'
+import Service from './components/home/Service'
+import Blog from './components/home/Blog'
+import Sidebar from './components/home/Sidebar'
 
 const App = () => {
   return (

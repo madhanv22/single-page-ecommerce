@@ -65,8 +65,8 @@ const Blog = () => {
         </div>
       </div>
       {/* shadow */}
-      <div className="shadow container bg-white w-auto py-6 md:mx-10 lg:mx-20 mb-8">
-        <div className="flex flex-col w-auto md:flex-row">
+      <div className="shadow container bg-white w-auto py-6 mx-10 md:mx-10 lg:mx-20 mb-8">
+        <div className="flex flex-col justify-between w-auto md:flex-row">
           {statsData.map((stat, index) => (
             <div key={index} className="w-auto flex items-center gap-4 p-4">
               <img src={stat.icon} alt={stat.label} className="w-12 h-12" />
