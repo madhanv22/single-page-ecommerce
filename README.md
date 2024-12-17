@@ -10,13 +10,17 @@ This repository contains the source code for a static page built using React.js 
 * **Vite:** Built with Vite, a lightning-fast frontend build tool that significantly improves development experience.
 
 **Getting Started:**
+1. Clone the Repository:
 
-1. **Clone the repository:**
-   ```bash
-   git clone  https://github.com/madhanv22/frontendtask-madhan/
+git clone https://github.com/madhanv22/frontendtask-madhan/
 
-  cd frontendtask-madhan
 
-  npm install
+2. Install Dependencies: Run npm install to install all the necessary project dependencies.
 
-  npm run dev
+npm install
+
+
+3. Start the Development Server: To start the development server and run the project, use npm run dev.
+
+npm run dev
+
