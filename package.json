@@ -1,12 +1,12 @@
 {
-  "homepage": "https://madhanv22.github.io/frontend_task_madhankumar/",
-  "name": "frontend_task_madhankumar",
+  "homepage": "https://madhanv22.github.io/single-page-ecommerce/",
+  "name": "single-page-ecommerce",
   "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "netlify deploy --prod",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -28,6 +28,7 @@
     "eslint-plugin-react": "^7.37.2",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.14",
+    "gh-pages": "^6.3.0",
     "globals": "^15.12.0",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.16",
