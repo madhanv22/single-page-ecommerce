@@ -3,7 +3,7 @@ import { MdMenu } from "react-icons/md";
 import Sidebar from './Sidebar';
 
 const images = {
-  logo: 'src/assets/images/logo.png',
+  logo: 'public/assets/images/logo.png',
 };
 
 const Navbar = () => {
