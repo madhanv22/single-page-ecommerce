@@ -16,7 +16,7 @@ const Team = () => {
           The member of our highly experienced team is decided to providing you with only the services we can possibly provide.
         </p>
       </div>
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-between my-10 gap-10'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 justify-between my-10 gap-10'>
         {/* card1 */}
         <div className="flex flex-col items-center">
           <div className="">

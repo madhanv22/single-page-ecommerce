@@ -1,7 +1,7 @@
 import React from 'react';
 
 const images = {
-  bgImg: "src/assets/images/service/bgimg.jpg",
+  bgImg: "src/assets/images/service/bgimg1.jpg",
   img1: 'src/assets/images/service/img1.png',
   img2: 'src/assets/images/service/img2.png',
   img3: 'src/assets/images/service/img3.png',
@@ -14,12 +14,12 @@ const images = {
 const Service = () => {
   return (
     <>
-      <div className='container bg-black w-screen grid grid-cols-1 lg:grid-cols-2'>
-        <div className='w-full'>
+      <div className='container bg-black w-full grid md:grid-cols-2 lg:grid-cols-2'>
+        {/* <div className='max-w-screen-md'>
           <img src={images.newimg} alt="" className='w-full' />
         </div>
-          
-        <div className="container w-full grid bg-white px-4 py-4 shadow text-left">
+           */}
+        <div className="w-screen grid bg-white px-4 py-4 text-left">
           <p className='text-xs md:text-base text-gray-500 font-medium mb-2'>MAID FOR YOU</p>
           <h1 className="text-lg md:text-xl lg:text-3xl font-bold mb-2">A Cleaner Place is a Safer Place.</h1>
           <p className="text-xs md:text-base text-gray-500 lg:text-xl mb-8">
