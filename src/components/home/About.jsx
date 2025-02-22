@@ -1,9 +1,9 @@
 import React from 'react'
 
 const images = {
-  img1: 'public/assets/images/about/img1.png',
-  img2: 'public/assets/images/about/img2.png',
-  img3: 'public/assets/images/about/img3.png' 
+  img1: './assets/images/about/img1.png',
+  img2: './assets/images/about/img2.png',
+  img3: './assets/images/about/img3.png' 
 }
 
 const About = () => {

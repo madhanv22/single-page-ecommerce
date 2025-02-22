@@ -2,9 +2,9 @@ import React from 'react';
 
 const Team = () => {
   const images = {
-    img1: 'public/assets/images/team/img1.jpg',
-    img2: 'public/assets/images/team/img2.jpg',
-    img3: 'public/assets/images/team/img3.jpg'
+    img1: './assets/images/team/img1.jpg',
+    img2: './assets/images/team/img2.jpg',
+    img3: './assets/images/team/img3.jpg'
   };
 
   return (

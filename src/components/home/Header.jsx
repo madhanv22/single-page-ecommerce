@@ -3,10 +3,10 @@ import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaCalculator } from 're
 import { MdEmail, MdCall } from "react-icons/md";
 
 const images = {
-  bgImg: 'public/assets/images/bgimg.jpg',
-  home: 'public/assets/images/home.png',
-  brush: 'public/assets/images/brush.png',
-  clean: 'public/assets/images/cleaning.png',
+  bgImg: './assets/images/bgimg.jpg',
+  home: './assets/images/home.png',
+  brush: './assets/images/brush.png',
+  clean: './assets/images/cleaning.png',
 };
 
 const Header = () => {

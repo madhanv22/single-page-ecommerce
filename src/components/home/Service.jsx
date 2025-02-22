@@ -1,14 +1,14 @@
 import React from 'react';
 
 const images = {
-  bgImg: "public/assets/images/service/bgimg1.jpg",
-  img1: 'public/assets/images/service/img1.png',
-  img2: 'public/assets/images/service/img2.png',
-  img3: 'public/assets/images/service/img3.png',
-  img4: 'public/assets/images/service/img4.jpg',
-  img5: 'public/assets/images/service/img5.png',
-  img6: 'public/assets/images/service/img6.png',
-  newimg: 'public/assets/images/service/newimg.jpg'
+  bgImg: "./assets/images/service/bgimg1.jpg",
+  img1: './assets/images/service/img1.png',
+  img2: './assets/images/service/img2.png',
+  img3: './assets/images/service/img3.png',
+  img4: './assets/images/service/img4.jpg',
+  img5: './assets/images/service/img5.png',
+  img6: './assets/images/service/img6.png',
+  newimg: './assets/images/service/newimg.jpg'
 };
 
 const Service = () => {

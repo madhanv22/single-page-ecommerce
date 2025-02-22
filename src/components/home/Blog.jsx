@@ -1,9 +1,9 @@
 import React, { useRef, useState, useEffect } from 'react';
 
 const videos = {
-  video: 'public/assets/video/video.mp4',
-  play: 'public/assets/video/play.png',
-  pause: 'public/assets/video/pause.png'
+  video: './assets/video/video.mp4',
+  play: './assets/video/play.png',
+  pause: './assets/video/pause.png'
 }
 
 const Blog = () => {
@@ -22,22 +22,22 @@ const Blog = () => {
 
   const statsData = [
     {
-      icon: 'public/assets/video/img1.png', 
+      icon: './assets/video/img1.png', 
       number: 385,
       label: 'Happy Customers'
     },
     {
-      icon: 'public/assets/video/img2.png', 
+      icon: './assets/video/img2.png', 
       number: 842,
       label: 'Houses Cleaned'
     },
     {
-      icon: 'public/assets/video/img3.png', 
+      icon: './assets/video/img3.png', 
       number: 489,
       label: 'Awards Received'
     },
     {
-      icon: 'public/assets/video/img4.png', 
+      icon: './assets/video/img4.png', 
       number: 1344,
       label: 'Glass Cleaned'
     }

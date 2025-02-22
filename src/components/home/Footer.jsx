@@ -1,7 +1,7 @@
 import React from 'react';
 
 const images = {
-  img1: 'src/assets/images/logo.png'
+  img1: './assets/images/logo.png'
 }
 
 function Footer() {

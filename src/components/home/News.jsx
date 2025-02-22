@@ -1,12 +1,12 @@
 import React from 'react';
 
 const images = {
-  img1: 'public/assets/images/news/img1.jpg',
-  img2: 'public/assets/images/news/img2.jpg',
-  img3: 'public/assets/images/news/img3.jpg',
-  avatar1: 'public/assets/images/news/avatar1.jpg',
-  avatar2: 'public/assets/images/news/avatar2.jpg',
-  avatar3: 'public/assets/images/news/avatar3.jpg'
+  img1: './assets/images/news/img1.jpg',
+  img2: './assets/images/news/img2.jpg',
+  img3: './assets/images/news/img3.jpg',
+  avatar1: './assets/images/news/avatar1.jpg',
+  avatar2: './assets/images/news/avatar2.jpg',
+  avatar3: './assets/images/news/avatar3.jpg'
 };
 
 const News = () => {
